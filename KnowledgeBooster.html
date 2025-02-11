@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" />
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    <meta http-equiv="expires" content="Wed, 21 Oct 2026 07:28:00 GMT">
+    <meta name="description"
+        content="Boost Your Knowledge: Access a wide range of study files, coding questions, and interview materials across various technologies including React, Angular, HTML, CSS, JavaScript, and jQuery.">
+    <meta name="keywords"
+        content="study files, coding questions, interview materials, React, Angular, HTML, CSS, JavaScript, jQuery, technology PDFs">
+    <meta name="Vinay kumar pudi" content="Boost Your Knowledge">
+    <meta name="google" content="nositelinkssearchbox">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="Css/Boost Knowledge/KnowledgeBooster.css">
+    <link rel="stylesheet" href="Css/Boost Knowledge/homePage.css" media="all">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="node_modules\bootstrap\dist\css\bootstrap.css">
+    <title>Boost Your Knowledge</title>
+</head>
+
+<body>
+    <header class="Navigation-container">
+        <nav class="navbar navbar-expand-md navbar-dark">
+            <div class="container">
+                <a class="navbar-brand" href="./KnowledgeBooster.html">
+                    <i class="fas fa-lightbulb blinking-icon"></i> Boost your Knowledge
+                </a>
+                <div class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                    <i class="fa-duotone fa-solid fa-bars"></i>
+                </div>
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Home"><i class="fas fa-home"></i> Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="files" href="./Pages/files.html"><i class="fas fa-file-alt"></i>
+                                Learning</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./Pages/Blog.html"><i class="fas fa-blog"></i> Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html"><i class="fas fa-envelope"></i> About us</a>
+                        </li>
+                    </ul>
+                    <div class="dark-mode-toggle ml-3" onclick="toggleDarkMode()">
+                        <i class="fas fa-moon"></i>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content Section -->
+    <main class="content-container-home-page">
+        <!-- Hero Section -->
+        <section class="hero-section" style="background-image: url(Assets/Tech-cards-png/Heo-image-background.jpg);">
+            <div class="hero-content">
+                <h1>Welcome to Boost Your Knowledge</h1>
+                <p>Explore a wide range of study materials, coding questions, and interview guides across various
+                    technologies.</p>
+                    <form>
+                        <button  title="Learning button" class="btn btn-primary" formaction="/Pages/files.html" >Start Learning</button>
+                    </form>
+               
+            </div>
+        </section>
+
+        <section class="technology-highlights">
+            <div class="container">
+                <h2 class="section-title">Technologies We Cover</h2>
+                <div class="swiper tech-swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide tech-card">
+                            <a href="https://legacy.reactjs.org/" title="React js">
+                                <img src="./Assets/Tech-cards-png/React_icon.png"  loading="lazy" alt="React Logo">
+                                <h3>React</h3>
+                                <p>A JavaScript library for building user interfaces, maintained by Facebook. React
+                                    allows developers to create large web applications that can change data, without
+                                    reloading the page. It is known for its component-based architecture, which enables
+                                    reusable code and a more modular approach to development. With a strong ecosystem
+                                    and community support, React is widely used for creating dynamic, high-performance
+                                    user interfaces, particularly in single-page applications (SPAs).</p>
+                            </a>
+                        </div>
+                        <div class="swiper-slide tech-card">
+                            <a href="https://v17.angular.io/start" title="Angular js">
+                                <img src="./Assets/Tech-cards-png/angular_logo_logos_icon.png" loading="lazy" alt="Angular Logo">
+                                <h3>Angular</h3>
+                                <p>A platform for building mobile and desktop web applications using TypeScript.</p>
+                            </a>
+                        </div>
+                        <div class="swiper-slide tech-card">
+                            <a href="https://javascript.info/">
+                                <img src="./Assets/Tech-cards-png/javascript.png" loading="lazy" alt="JavaScript Logo">
+                                <h3>JavaScript</h3>
+                                <p>The programming language of the web, enabling interactive web pages and applications.
+                                </p>
+                            </a>
+                        </div>
+                        <div class="swiper-slide tech-card">
+                            <a href="https://web.dev/learn/css">
+                                <img src="./Assets/Tech-cards-png/css-icon.png"loading="lazy" alt="CSS Logo">
+                                <h3>CSS</h3>
+                                <p>A style sheet language used for describing the presentation of a document written in
+                                    HTML.</p>
+                            </a>
+                        </div>
+                        <div class="swiper-slide tech-card">
+                            <a href="https://jquery.com/">
+                                <img src="./Assets/Tech-cards-png/Jquery.png"loading="lazy" alt="CSS Logo">
+                                <h3>JQuery</h3>
+                                <p>A style sheet language used for describing the presentation of a document written in
+                                    HTML.</p>
+                            </a>
+                        </div>
+                        <div class="swiper-slide tech-card">
+                            <a href="https://getbootstrap.com/" title="Bootstrap">
+                                <img src="./Assets/Tech-cards-png/bootstrap.png" loading="lazy" alt="Bootstrap Logo">
+                                <h3>Bootstrap</h3>
+                                <p>A popular front-end framework for developing responsive and mobile-first websites.
+                                </p>
+                            </a>
+                        </div>
+
+                        <div class="swiper-slide tech-card">
+                            <a href="https://nodejs.org/" title="Node.js">
+                                <img src="./Assets/Tech-cards-png/nodejs.png" loading="lazy" alt="Node.js Logo">
+                                <h3>Node.js</h3>
+                                <p>An open-source, cross-platform JavaScript runtime environment for executing
+                                    JavaScript code outside a browser.</p>
+                            </a>
+                        </div>
+
+                        <div class="swiper-slide tech-card">
+                            <a href="https://www.python.org/" title="Python">
+                                <img src="./Assets/Tech-cards-png/python.png" loading="lazy" alt="Python Logo">
+                                <h3>Python</h3>
+                                <p>A high-level, general-purpose programming language known for its readability and
+                                    versatility.</p>
+                            </a>
+                        </div>
+
+                        <div class="swiper-slide tech-card">
+                            <a href="https://www.docker.com/" title="Docker">
+                                <img src="./Assets/Tech-cards-png/Dockor.png" loading="lazy" alt="Docker Logo">
+                                <h3>Docker</h3>
+                                <p>A set of platform-as-a-service products that use OS-level virtualization to deliver
+                                    software in packages called containers.</p>
+                            </a>
+                        </div>
+
+                        <div class="swiper-slide tech-card">
+                            <a href="https://www.mongodb.com/" title="MongoDB">
+                                <img src="./Assets/Tech-cards-png/mogodb.png" loading="lazy" alt="MongoDB Logo">
+                                <h3>MongoDB</h3>
+                                <p>A source-available cross-platform document-oriented database program, classified as a
+                                    NoSQL database.</p>
+                            </a>
+                        </div>
+
+                        <div class="swiper-slide tech-card">
+                            <a href="https://aws.amazon.com/" title="AWS">
+                                <img src="./Assets/Tech-cards-png/aws.png" loading="lazy" alt="AWS Logo">
+                                <h3>AWS</h3>
+                                <p>A comprehensive and widely adopted cloud platform, offering over 200 fully-featured
+                                    services from data centers globally.</p>
+                            </a>
+                        </div>
+                        <div class="swiper-slide tech-card">
+                            <a href="https://www.ruby-lang.org/en/" title="Ruby">
+                                <img src="./Assets/Tech-cards-png/ruby.png"loading="lazy" alt="Ruby Logo">
+                                <h3>Ruby</h3>
+                                <p>A dynamic, open-source programming language with a focus on simplicity and
+                                    productivity, known for its elegant syntax.</p>
+                            </a>
+                        </div>
+                        <div class="swiper-slide tech-card">
+                            <a href="https://www.java.com/" title="Java">
+                                <img src="./Assets/Tech-cards-png/java.png" loading="lazy" alt="Java Logo">
+                                <h3>Java</h3>
+                                <p>A high-level, class-based, object-oriented programming language that is widely used
+                                    for building enterprise-scale applications.</p>
+                            </a>
+                        </div>
+
+                        <div class="swiper-slide tech-card">
+                            <a href="https://www.mysql.com/" title="MySQL">
+                                <img src="./Assets/Tech-cards-png/mysql.png" loading="lazy" alt="MySQL Logo">
+                                <h3>MySQL</h3>
+                                <p>An open-source relational database management system, widely used for web database
+                                    applications.</p>
+                            </a>
+                        </div>
+                        <div class="swiper-slide tech-card">
+                            <a href="https://www.typescriptlang.org/" title="TypeScript">
+                                <img src="./Assets/Tech-cards-png/typescript.png" loading="lazy" alt="TypeScript Logo">
+                                <h3>TypeScript</h3>
+                                <p>A strongly typed superset of JavaScript that compiles to plain JavaScript, providing
+                                    static types for large codebases.</p>
+                            </a>
+                        </div>
+                        <div class="swiper-slide tech-card">
+                            <a href="https://www.php.net/" title="PHP">
+                                <img src="./Assets/Tech-cards-png/php.png" loading="lazy" height="100px" alt="PHP Logo">
+                                <h3>PHP</h3>
+                                <p>A widely-used open-source scripting language especially suited for web development,
+                                    embedded into HTML.</p>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- Add Pagination -->
+                    <div class="swiper-pagination"></div>
+                    <!-- Add Navigation -->
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="interactive-sidebar">
+            <h2 class="section-title">Roadmap</h2>
+            <aside class="sidebar">
+                <button id="sider-btn-1" class="sidebar-btn" onclick="showContent('frontend')"> <i
+                        class="fa fa-laptop-code" aria-hidden="true"></i> Frontend</button>
+                <button class="sidebar-btn" onclick="showContent('backend')"> <i class="fa fa-server"
+                        aria-hidden="true"></i> Backend</button>
+                <button class="sidebar-btn" onclick="showContent('database')"><i class="fa fa-database"
+                        aria-hidden="true"></i> Database</button>
+                <button class="sidebar-btn" onclick="showContent('devops')"><i class="fa fa-cogs"
+                        aria-hidden="true"></i> DevOps</button>
+                <button class="sidebar-btn" onclick="showContent('AI')"><i class="fa-solid fa-microchip"></i> Artificial
+                    Intelligence</button>
+            </aside>
+            <div class="content-area">
+                <div id="frontend" class="content-box">
+                    <h3>Frontend Development Roadmap</h3>
+                    <p>
+                        Frontend development is the art and science of creating the visible interface of a web
+                        application or website. It involves crafting the user experience, including the layout, design,
+                        and interactivity.
+                    </p>
+                    <p>
+                        Below is a roadmap to guide you through the process of becoming a proficient frontend developer.
+                    </p>
+                    <div id="moreContent" class="more-content">
+                        <p>
+                            <strong>1. Learn HTML (HyperText Markup Language):</strong><br>
+                            HTML is the foundation of all web pages. It defines the structure of a web page using tags and elements. 
+                            Start by learning basic tags like <code>&lt;div&gt;</code>, <code>&lt;p&gt;</code>, <code>&lt;a&gt;</code>, 
+                            and understand how to create headings, paragraphs, links, images, and lists.
+                        </p>
+                        <p>
+                            <strong>2. Learn CSS (Cascading Style Sheets):</strong><br>
+                            CSS controls the appearance of HTML elements. It allows you to style your web pages by setting colors, fonts, 
+                            spacing, and layout. Learn about the box model, positioning, Flexbox, and Grid to create responsive designs that 
+                            look great on any device.
+                        </p>
+                        <p>
+                            <strong>3. Learn JavaScript:</strong><br>
+                            JavaScript adds interactivity to your web pages. It allows you to create dynamic content, respond to user actions, 
+                            and manipulate the DOM (Document Object Model). Start with basic concepts like variables, functions, and loops, 
+                            then move on to more advanced topics like event handling, asynchronous programming, and APIs.
+                        </p>
+                        <p>
+                            <strong>4. Explore Frontend Frameworks:</strong><br>
+                            Frameworks like React and Angular can make your development process more efficient. React is a library for building 
+                            user interfaces with components, while Angular is a full-fledged framework that provides tools for building complex 
+                            applications. Choose one to start with and learn how to build single-page applications (SPAs).
+                        </p>
+                        <p>
+                            <strong>5. Version Control with Git:</strong><br>
+                            Git is a version control system that tracks changes in your code. Learn to create repositories, make commits, 
+                            and manage branches. GitHub is a platform where you can host your Git repositories and collaborate with others.
+                        </p>
+                        <p>
+                            <strong>6. Learn About Responsive Design:</strong><br>
+                            Responsive design ensures that your website looks good on all devices, from desktops to smartphones. Use media queries, 
+                            Flexbox, and Grid to create layouts that adapt to different screen sizes. Learn about mobile-first design, 
+                            which prioritizes the mobile user experience.
+                        </p>
+                        <p>
+                            <strong>7. Master Web Performance Optimization:</strong><br>
+                            Optimize your web pages to load quickly and efficiently. Learn about image optimization, lazy loading, 
+                            and minimizing HTTP requests. Use tools like Lighthouse to analyze and improve your website's performance.
+                        </p>
+                        <p>
+                            <strong>8. Learn Testing and Debugging:</strong><br>
+                            Testing ensures your code works as expected. Learn about unit testing with tools like Jest, and end-to-end testing with Cypress. 
+                            Debugging involves finding and fixing errors in your code, using browser developer tools.
+                        </p>
+                        <p>
+                            <strong>9. Deployment and Hosting:</strong><br>
+                            Once your website is ready, you'll need to deploy it to the web. Learn how to use services like Netlify, 
+                            Vercel, or GitHub Pages to host your site. Understand the basics of domains, DNS, and SSL certificates.
+                        </p>
+                        <p>
+                            <strong>10. Keep Learning and Stay Updated:</strong><br>
+                            Frontend development is constantly evolving. Follow blogs, participate in communities, and keep up with new tools 
+                            and technologies. Regularly practice by building projects and contributing to open-source.
+                        </p>
+                        <div class="tech-tags-con">
+                            <form action="">
+                            <button class="tech-tags" formaction="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/html">HTML5</button>
+                            <button class="tech-tags" formaction="https://developer.mozilla.org/en-US/docs/Web/CSS">CSS3</button>
+                            <button class="tech-tags" formaction="https://reactjs.org/"">JavaScript</button>
+                            <button class="tech-tags" formaction="https://reactjs.org/">React</button>
+                            <button class="tech-tags" formaction="https://angular.io/">Angular</button>
+                          <button class="tech-tags" formaction="https://vuejs.org/">Vue</button>
+                        </form>
+                        </div>
+                    </div>
+                  
+                    <button id="showMoreBtn" class="show-more-btn"> Show More <span class="chevron">&#x25BC;</span></button>
+                </div>
+
+                <div id="backend" class="content-box" style="display: none;">
+                    <h3>Backend Development Roadmap</h3>
+                    <p>
+                        Backend development focuses on the server-side of web applications, handling data storage,
+                        retrieval, and processing. It involves creating the logic and infrastructure that powers the frontend.
+                    </p>
+                    <p>
+                        Below is a roadmap to guide you through the process of becoming a proficient backend developer.
+                    </p>
+                    <div id="moreContent" class="more-content">
+                        <p>
+                            <strong>1. Learn a Server-Side Language:</strong><br>
+                            Start with a programming language commonly used for backend development. Popular choices include JavaScript (Node.js), 
+                            Python, Java, and Ruby. Learn the syntax, basic concepts like loops and conditionals, and how to write and run scripts.
+                        </p>
+                        <p>
+                            <strong>2. Understand Databases:</strong><br>
+                            Learn how to interact with databases to store and retrieve data. Understand the difference between relational databases 
+                            (like MySQL, PostgreSQL) and NoSQL databases (like MongoDB). Practice writing SQL queries and using an ORM (Object-Relational Mapping) tool.
+                        </p>
+                        <p>
+                            <strong>3. Learn About APIs (Application Programming Interfaces):</strong><br>
+                            Backend developers often build APIs that the frontend can use to fetch data. Learn how to create RESTful APIs, understand 
+                            HTTP methods (GET, POST, PUT, DELETE), and handle JSON data. Explore GraphQL as an alternative to REST.
+                        </p>
+                        <p>
+                            <strong>4. Security and Authentication:</strong><br>
+                            Security is crucial in backend development. Learn about common security practices like hashing passwords, securing API endpoints, 
+                            and using authentication methods like JWT (JSON Web Tokens) or OAuth.
+                        </p>
+                        <p>
+                            <strong>5. Master a Framework:</strong><br>
+                            Use a backend framework to streamline your development. For Node.js, Express.js is a popular choice. For Python, consider Django or Flask. 
+                            Frameworks provide built-in tools for routing, middleware, and database interactions.
+                        </p>
+                        <p>
+                            <strong>6. Learn About Deployment and Hosting:</strong><br>
+                            Once your application is ready, you’ll need to deploy it to a server. Learn about web servers (like Nginx or Apache), 
+                            cloud platforms (like AWS, Azure, or Heroku), and containerization with Docker. Practice deploying a simple application.
+                        </p>
+                        <p>
+                            <strong>7. Monitoring and Performance:</strong><br>
+                            Learn how to monitor your application in production to ensure it’s running smoothly. Use tools like Prometheus, Grafana, 
+                            and New Relic to track performance and set up alerts for potential issues.
+                        </p>
+                        <div class="tech-tags-con">
+                            <form action=""></form>
+                            <button class="tech-tags" formaction="https://www.python.org/">Python</button>
+                            <button class="tech-tags" formaction="https://nodejs.org/">Node.js</button>
+                            <button class="tech-tags" formaction="https://ruby-lang.org/">Ruby</button>
+                            <button class="tech-tags" formaction="https://www.php.net/">PHP</button>
+                            <button class="tech-tags" formaction="https://go.dev/">Go</button>
+                        </form>
+                        </div>
+                    </div>
+                    <button id="showMoreBtn" class="show-more-btn">Show More<span class="chevron">&#x25BC;</span></button>
+                </div>
+                
+
+                <div id="database" class="content-box" style="display: none;">
+                    <h3>Database Management Roadmap</h3>
+                    <p>
+                        Database management involves designing, creating, and maintaining databases to store, organize, and retrieve data in web applications.
+                    </p>
+                    <p>
+                        Below is a roadmap to guide you through the process of becoming proficient in database management.
+                    </p>
+                    <div id="moreContent" class="more-content">
+                        <p>
+                            <strong>1. Learn SQL (Structured Query Language):</strong><br>
+                            SQL is the standard language for interacting with relational databases. Start with basic commands like SELECT, INSERT, UPDATE, 
+                            and DELETE. Practice writing complex queries involving JOINs, GROUP BY, and subqueries.
+                        </p>
+                        <p>
+                            <strong>2. Understand Data Modeling:</strong><br>
+                            Learn how to design database schemas that efficiently store data and support your application's needs. Understand the concepts 
+                            of tables, relationships (one-to-one, one-to-many, many-to-many), and normalization.
+                        </p>
+                        <p>
+                            <strong>3. Explore Different Types of Databases:</strong><br>
+                            Learn the differences between relational databases (like MySQL, PostgreSQL) and NoSQL databases (like MongoDB, Cassandra). 
+                            Understand when to use each type based on your application’s needs.
+                        </p>
+                        <p>
+                            <strong>4. Learn About Indexing and Query Optimization:</strong><br>
+                            Indexing improves the speed of data retrieval operations. Learn how to create and use indexes to optimize queries, 
+                            and understand the trade-offs involved. Practice writing efficient SQL queries.
+                        </p>
+                        <p>
+                            <strong>5. Master Database Administration:</strong><br>
+                            Learn how to manage and maintain a database, including backup and recovery, user permissions, and security. 
+                            Understand how to monitor database performance and troubleshoot issues.
+                        </p>
+                        <p>
+                            <strong>6. Learn About NoSQL Databases:</strong><br>
+                            NoSQL databases store data in non-relational formats like key-value pairs, documents, or graphs. Learn about the different 
+                            types of NoSQL databases and when to use them.
+                        </p>
+                        <div class="tech-tags-con">
+                       <form >
+                        <button class="tech-tags" formaction="https://www.postgresql.org/">PostgreSQL</button>
+                        <button class="tech-tags" formaction="https://www.mysql.com/">MySQL</button>
+                        <button class="tech-tags" formaction="https://www.mongodb.com/">MongoDB</button>
+                        <button class="tech-tags" formaction="//cassandra.apache.org/">Apache Cassandra</button>
+                       </form>
+                        </div>
+                    </div>
+                    <button id="showMoreBtn" class="show-more-btn">Show More<span class="chevron">&#x25BC;</span></button>
+                </div>
+                <div id="devops" class="content-box" style="display: none;">
+                    <h3>DevOps Roadmap</h3>
+                    <p>
+                        DevOps combines development and operations to improve the efficiency and reliability of software delivery. It focuses on automation, 
+                        collaboration, and continuous delivery.
+                    </p>
+                    <p>
+                        Below is a roadmap to guide you through the process of becoming proficient in DevOps.
+                    </p>
+                    <div id="moreContent" class="more-content">
+                        <p>
+                            <strong>1. Learn Version Control with Git:</strong><br>
+                            Git is essential for tracking changes to code and collaborating with other developers. Learn how to create repositories, 
+                            commit changes, and manage branches. Use platforms like GitHub or GitLab for hosting repositories.
+                        </p>
+                        <p>
+                            <strong>2. Understand Continuous Integration/Continuous Delivery (CI/CD):</strong><br>
+                            CI/CD automates the process of building, testing, and deploying code. Learn how to set up a CI/CD pipeline using tools 
+                            like Jenkins, Travis CI, or GitHub Actions.
+                        </p>
+                        <p>
+                            <strong>3. Learn About Containerization:</strong><br>
+                            Containers package applications and their dependencies into a single unit, making them easy to deploy and scale. 
+                            Learn how to use Docker to create and manage containers.
+                        </p>
+                        <p>
+                            <strong>4. Master Container Orchestration:</strong><br>
+                            For large-scale deployments, you need to manage containers across multiple servers. Kubernetes is the leading platform for container 
+                            orchestration. Learn how to deploy, scale, and manage applications with Kubernetes.
+                        </p>
+                        <p>
+                            <strong>5. Explore Cloud Platforms:</strong><br>
+                            Cloud platforms like AWS, Azure, and Google Cloud provide the infrastructure and tools needed for DevOps. 
+                            Learn how to deploy and manage applications on the cloud, including services like EC2, S3, and Lambda.
+                        </p>
+                        <p>
+                            <strong>6. Learn Infrastructure as Code (IaC):</strong><br>
+                            IaC allows you to manage and provision infrastructure using code. Tools like Terraform and Ansible help automate infrastructure management. 
+                            Learn how to define infrastructure in code and manage it with version control.
+                        </p>
+                        <p>
+                            <strong>7. Monitoring and Logging:</strong><br>
+                            Monitoring ensures that your applications run smoothly in production. Learn to use tools like Prometheus, Grafana, and ELK stack for monitoring 
+                            and logging, and set up alerts for potential issues.
+                        </p>
+                        <div class="tech-tags-con">
+                            <form>
+                            <button class="tech-tags" formaction="https://docs.docker.com>Docker</button>
+                            <button class="tech-tags" formaction="https://kubernetes.io/">Kubernetes</button>
+                            <button class="tech-tags" formaction="https://www.ansible.com/">Ansible</button>
+                            <button class="tech-tags" formaction="https://www.terraform.io/">Terraform</button>
+                            <button class="tech-tags" formaction="https://jenkins.io/">Jenkins</button>
+                        </form>
+                        </div>
+                    </div>
+                    <button id="showMoreBtn" class="show-more-btn">Show More<span class="chevron">&#x25BC;</span></button>
+                </div>
+                
+                <div id="AI" class="content-box" style="display: none;">
+                    <h3>Artificial Intelligence Roadmap</h3>
+                    <p>
+                        Artificial Intelligence (AI) involves creating systems that can reason, learn, and act autonomously. It covers a wide range 
+                        of technologies like machine learning, natural language processing, and robotics.
+                    </p>
+                    <p>
+                        Below is a roadmap to guide you through the process of becoming proficient in AI.
+                    </p>
+                    <div id="aiMoreContent" class="more-content" style="display: none;">
+                        <p>
+                            <strong>1. Learn the Basics of AI:</strong><br>
+                            Start with understanding the fundamental concepts of AI, including what AI is and its different types (e.g., narrow AI vs. general AI). 
+                            Explore AI applications across various fields like healthcare, finance, and transportation.
+                        </p>
+                        <p>
+                            <strong>2. Get Started with Machine Learning (ML):</strong><br>
+                            Machine learning is a critical aspect of AI where systems learn from data. Familiarize yourself with different types of ML algorithms 
+                            (supervised, unsupervised, and reinforcement learning). Begin with a programming language like Python, which is widely used in ML, 
+                            and learn about libraries such as TensorFlow and Scikit-learn.
+                        </p>
+                        <p>
+                            <strong>3. Dive into Deep Learning:</strong><br>
+                            Deep learning is a subset of machine learning focused on neural networks with many layers (deep neural networks). Understand how 
+                            deep learning models, such as convolutional neural networks (CNNs) and recurrent neural networks (RNNs), are used for tasks like image 
+                            recognition and natural language processing.
+                        </p>
+                        <p>
+                            <strong>4. Explore Natural Language Processing (NLP):</strong><br>
+                            NLP is an AI field that deals with the interaction between computers and human languages. Learn about techniques for processing and 
+                            analyzing text, such as tokenization, sentiment analysis, and language modeling. Tools like NLTK and spaCy are useful for NLP tasks.
+                        </p>
+                        <p>
+                            <strong>5. Study Computer Vision:</strong><br>
+                            Computer vision enables machines to interpret and make decisions based on visual inputs like images and videos. Learn about key concepts 
+                            such as image processing, object detection, and facial recognition. OpenCV is a popular library for computer vision projects.
+                        </p>
+                        <p>
+                            <strong>6. Understand Robotics and Autonomous Systems:</strong><br>
+                            AI is also crucial in robotics, where it is used to create autonomous systems capable of performing tasks without human intervention. 
+                            Learn about robotic perception, control systems, and path planning. Dive into frameworks like ROS (Robot Operating System) for developing 
+                            robotic applications.
+                        </p>
+                        <p>
+                            <strong>7. Practice with Real-World Projects:</strong><br>
+                            Apply your AI knowledge by working on real-world projects. Build AI models, participate in AI competitions on platforms like Kaggle, 
+                            and contribute to open-source AI projects. Real-world experience is crucial for mastering AI.
+                        </p>
+                        <p>
+                            <strong>8. Stay Updated with AI Research:</strong><br>
+                            AI is a rapidly evolving field. Keep up with the latest research by reading AI journals, attending conferences, and following AI researchers 
+                            and companies on social media. Staying informed about advancements in AI will help you remain competitive in the field.
+                        </p>
+                    </div>
+                    <button class="show-more-btn">Show More<span class="chevron">&#x25BC;</span></button>
+                </div>
+                
+        </section>
+        <!-- <section class="faq-sec">
+            <h2>FAQ section</h2>
+            <div class="faq-container" id="faq-container">
+                FAQs will be dynamically loaded here
+
+                <div id="preloader" class="preloader" style="display: none;">
+                    <div class="spinner"></div>
+                </div>
+            </div>
+            
+        </section> -->
+        
+        <section class="features-section">
+            <div class="container">
+                <h2 class="section-title">Why Choose Us?</h2>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <i class="fas fa-book"></i>
+                        <h3>Extensive Resources</h3>
+                        <p>Access a comprehensive library of study materials, coding questions, and interview guides.
+                        </p>
+                    </div>
+                    <div class="feature-card">
+                        <i class="fas fa-users"></i>
+                        <h3>Community Support</h3>
+                        <p>Join a community of learners and experts ready to help you succeed.</p>
+                    </div>
+                    <div class="feature-card">
+                        <i class="fas fa-star"></i>
+                        <h3>Quality Content</h3>
+                        <p>Our materials are curated by industry professionals to ensure high quality and relevance.</p>
+                    </div>
+                    <div class="feature-card">
+                        <i class="fas fa-tachometer-alt"></i>
+                        <h3>Interactive Learning</h3>
+                        <p>Engage with interactive quizzes and exercises to reinforce your learning.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer Section -->
+    <section class="footer-section">
+        <footer class="footer">
+            <div class="footer-content">
+                <div class="footer-section about">
+                    <h3>About Boost Your Knowledge</h3>
+                    <p>Your go-to platform for learning various technologies.</p>
+                </div>
+                <div class="footer-section links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="../KnowledgeBooster.html">Home</a></li>
+                        <li><a href="../index.html">About</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section social-media">
+                    <h3>Follow Us</h3>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section disclaimer">
+                    <h3>Disclaimer</h3>
+                    <p>
+                        The PDFs available on this platform are gathered from various sources, and some may belong
+                        to other authors. They are provided for educational purposes only. If any content infringes
+                        on your copyright, please notify us, and we will remove it.
+                    </p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                &copy; 2024 Boost Your Knowledge | <span id="footer-name"><a href="../index.html"> VINAY KUMAR
+                        PUDI</a></span>
+            </div>
+        </footer>
+    </section>
+    <script>
+        // document.addEventListener('DOMContentLoaded',function(){
+        //     document.addEventListener('contextmenu', (event) => {
+        //     event.preventDefault();
+        //   });
+        // });
+        // document.addEventListener('DOMContentLoaded', function () {
+        //     setTimeout(() => {
+        //         if (window.location.pathname.endsWith('.html')) {
+        //         const newUrl = window.location.pathname.replace('.html', '');
+        //         history.replaceState(null, '', newUrl);
+        //     }
+        //     }, 2000);
+          
+        // });
+
+    </script>
+    <script src="Libraries/KnowledgeBooster.js"></script>
+    <!-- <script src="../Libraries/knowleged_min_file.js"></script> -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
